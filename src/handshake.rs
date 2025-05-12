@@ -1,5 +1,4 @@
 use anyhow::{bail, Result};
-use async_trait::async_trait;
 use boring::ssl::{SslConnector, SslMethod};
 use histogram::Histogram;
 use quiche::{self, RecvInfo};
